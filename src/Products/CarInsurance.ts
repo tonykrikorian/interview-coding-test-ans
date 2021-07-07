@@ -1,6 +1,10 @@
 
 import Product from "./Product";
 
+/**
+ * @description Se encarga de actualizar los precios de los
+ * productos del carrito de compras
+ */
 export default class CarInsurance
 {
     
