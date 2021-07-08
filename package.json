@@ -4,7 +4,7 @@
   "description": "Prueba de codigo ANS",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon ./src/main.ts",
+    "start": "nodemon ./src/index.ts",
     "build": "tsc --project ./",
     "test": "nyc  mocha -r ts-node/register 'spec/**/*.ts'",
     "after-30-days": "npm run build && node ./dist/index.js"
